@@ -1,0 +1,33 @@
+nav {
+    display: grid;
+    place-items: center;
+}
+
+#div {
+    display: grid;
+    place-items: center;
+    width: 70%;
+    max-width: 500px;
+    height: 80vh;
+    background-color: #887965;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 10px;
+
+    border-top: rgb(187, 169, 135);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-image:url("wall.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.dice{
+
+    display: flexbox;
+
+}
