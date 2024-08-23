@@ -3,30 +3,48 @@ nav {
     place-items: center;
 }
 
+@keyframes change {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(1440deg);
+    }
+}
+
+img {
+    height: 200;
+    width: 200px;
+    animation: change 2s ease-out ;
+
+}
+
 #div {
     display: grid;
     place-items: center;
     width: 70%;
     max-width: 500px;
     height: 80vh;
-    background-color: #887965;
+    background-color: #887965af;
     border-radius: 30px 30px 30px 30px;
     border-width: 10px;
-
+    margin-top: 50px;
     border-top: rgb(187, 169, 135);
 }
 
 body {
     display: grid;
     place-items: center;
-    background-image:url("wall.jpg") ;
+    background-image: url("wall.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 
 }
-.dice{
+
+.dice {
 
     display: flexbox;
 
